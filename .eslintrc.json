@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "zumata"
+  ],
+  "plugins": [
+  ],
+  "rules": {
+    "no-console": [
+      "error",
+      { "allow": [ "info", "log", "error", "warn" ] }
+    ]
+  }
+}
